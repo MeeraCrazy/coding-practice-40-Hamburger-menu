@@ -1,0 +1,81 @@
+/* Write your CSS here */
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.not-found-content-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .not-found-content-container {
+    align-items: flex-start;
+    margin-top: 60px;
+  }
+}
+.not-found-responsive-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 1140px;
+}
+
+@media screen and (max-width: 768px) {
+  .not-found-responsive-container {
+    margin-top: 60px;
+    max-width: 468px;
+  }
+}
+
+.notfound-img {
+  width: 328px;
+}
+
+@media screen and (min-width: 768px) {
+  .notfound-img {
+    width: 475px;
+  }
+}
+
+.heading {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3;
+  margin: 0;
+  margin-top: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 1.4;
+  }
+}
+
+.description {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.75;
+  margin-top: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .description {
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.22;
+    width: 263px;
+    margin-top: 6px;
+  }
+}
